@@ -1,0 +1,80 @@
+body {
+    font: 30px;
+  background-image: url("http://svite-league-apps-content.s3.amazonaws.com/bgimages/steel-silhouette.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+}
+#player-form {
+    float: left; 
+    background: white;
+    margin-right: 20px;
+}
+#player{
+width: 70%;
+}
+
+.player-item {
+    float: right;
+    padding: 10px;
+}
+
+form {
+    float: right;
+    width: 30%;
+    padding: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+input[type = "text"] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+button,
+input[type= "submit"] {
+    padding: 5px 20px;
+    margin: 0 10px 10px 0;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    background: rgb(34, 34, 148);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #bbb;
+
+}
+
+button.active {
+    background: rgb(0,122,204);
+}
+
+.wrapper {
+    margin-right: auto; 
+    margin-left:  auto; 
+  
+    max-width: 960px; 
+  
+    padding-right: 10px; 
+    padding-left:  10px; 
+}
+h1 {
+    color: #000000;
+    font-family: fantasy;
+    font: bold;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    color: #000000;
+    font: bold;
+    font-family: fantasy;
+  }
