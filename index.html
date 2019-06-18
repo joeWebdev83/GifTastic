@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  	<meta charset="UTF-8">
-      <title>GifTastic</title>
-      <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-  	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giphy Generator</title>
+
+   
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
+
 <body>
-	
-            <h1>Favorite Sports Players</h1>
-            <br>
-            
-                <form id="form">
-                <label for="player-input">Add a player</label><br>
-                <input type="text" id="player-input">
-                <input id="add-player" type="submit" value="Submit">
-            </form>
-            <div id= "Player">
-
-            </div>
-
-            <div id= "images">
-                
-            </div>
-            
-		
-</body>
-<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     
-<script src="./assets/javascript/main.js"></script>
+    <h1>Favorite Sports Player</h1>
+    <h2>Click on the image to start</h2>
+    <br>
+
+    <form id="character-form">
+        <label for="character-input">Enter A Player</label>
+        <input type="text" id="player-input">
+        <br>
+        <input id="add-player" type="submit" value="Submit">
+    </form>
+    <!--For the buttons for the parameters -->
+
+    <div id="player-buttons">
+
+    </div>
+    <div class="wrapper">
+        <div id="images">
+
+
+        </div>
+    </div>
+
+    <!-- JQuery Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="assets/main.js"></script>
+</body>
+
 </html>
